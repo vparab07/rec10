@@ -21,7 +21,7 @@ public class DemoblazeHybrid {
 		ts=new TestCaseScreenshot();
 		
 	}
-	//
+	//test line
   @Test(dataProvider = "dp",enabled=true)
   public void mobileautomate(String tid,String us,String pw,String samsg6,String nokl,String nx,String samsg7,String htc,String exe) {
 	  if(!(tid.equals("test id"))&&exe.equals("yes"))
